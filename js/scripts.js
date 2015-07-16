@@ -1,4 +1,6 @@
-//this is where we apply opacity to the arrow
+$(document).on('ready', function() {
+
+	//this is where we apply opacity to the arrow
 $(window).scroll( function(){
 
   //get scroll position
@@ -21,10 +23,6 @@ $(window).scroll( function(){
 });
 
 
-
-
-
-
 //Code stolen from css-tricks for smooth scrolling:
 $(function() {
   $('a[href*=#]:not([href=#])').click(function() {
@@ -40,3 +38,8 @@ $(function() {
     }
   });
 });
+
+$('.photo').parallax({imageSrc: '/images/skyline.jpg'});
+
+});
+
