@@ -39,7 +39,7 @@ $(function() {
   });
 });
 
-$('.photo').parallax({imageSrc: '/images/skyline.jpg'});
+//$('.photo').parallax({imageSrc: '/images/buddha.jpg'});
 
 });
 
